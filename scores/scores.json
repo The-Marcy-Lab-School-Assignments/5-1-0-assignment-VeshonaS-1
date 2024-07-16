@@ -3,18 +3,18 @@
     "CartItem Tests": {
       "CaTe1": 1,
       "CaTe2": 1,
-      "CaTe3": 0
+      "CaTe3": 1
     },
     "ShoppingCart Tests": {
       "ShTe1": 1,
       "ShTe2": 1,
       "ShTe3": 1,
-      "ShTe4": 0,
-      "ShTe5": 0,
-      "ShTe6": 0,
-      "ShTe7": 0,
-      "ShTe8": 0,
-      "ShTe9": 0,
+      "ShTe4": 1,
+      "ShTe5": 1,
+      "ShTe6": 1,
+      "ShTe7": 1,
+      "ShTe8": 1,
+      "ShTe9": 1,
       "ShTe10": 0,
       "ShTe11": 0,
       "ShTe12": 0
@@ -70,8 +70,8 @@
     "src/model/ShoppingCart.spec.js > ShoppingCart Tests > ShoppingCart.findBy returns the correct cart when given an id": "ShTe12"
   },
   "humanReadable": {
-    "CartItem Tests": "2/3",
-    "finalTestScore": "FINAL SCORE: 5/15",
-    "ShoppingCart Tests": "3/12"
+    "CartItem Tests": "3/3",
+    "finalTestScore": "FINAL SCORE: 12/15",
+    "ShoppingCart Tests": "9/12"
   }
 }

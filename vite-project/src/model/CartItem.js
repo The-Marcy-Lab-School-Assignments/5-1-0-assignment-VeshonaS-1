@@ -1,9 +1,12 @@
 import getId from "../utils/getId";
 
 class CartItem {
- id = getId()
- name = this.name 
- price = this.price 
+  constructor(name, price, id = 1 ){
+ this.id = getId()
+ this.name = name 
+ this.price = price 
+  }
+
 }
 
 export default CartItem;
