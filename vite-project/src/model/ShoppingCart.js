@@ -36,8 +36,16 @@ class ShoppingCart {
   }
 
   static listAll(){
+    /*
+    FEEDBACK:
+      Adding the instance to #allCarts should happen in the constructor rather that in listAll.
+      This is because we want any time one is created, we want it to be added to this array. 
+
+      We also want to return [...ShoppingCart.#allCarts] rather than this.#allCarts because it is a static property
+    */
     ShoppingCart.#allCarts.push(this)
-    return [...this.#allCarts]
+    
+    return [...ShoppingCart.#allCarts]
   }
 
   static findBy(id){
